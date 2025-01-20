@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "medisync"
+version = "0.1.0"
+description = "MediSync streamlines medical data management for healthcare professionals, providing easy access to patient records, improving efficiency, and supporting real-time decision-making."
+authors = ["Juan David Rengifo Castro <jdrengifoc@eafit.edu.co>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
